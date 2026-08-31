@@ -1,0 +1,65 @@
+# ── Byte-compiled / optimized / DLL files ────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── C extensions ─────────────────────────────────────────────────────
+*.so
+
+# ── Distribution / packaging ─────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# ── Virtual environments ─────────────────────────────────────────────
+.venv/
+venv/
+ENV/
+env/
+
+# ── IDE / Editors ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ── Testing / Coverage ──────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# ── mypy ─────────────────────────────────────────────────────────────
+.mypy_cache/
+
+# ── ruff ─────────────────────────────────────────────────────────────
+.ruff_cache/
+
+# ── Environment variables ────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── VirtualBox / runtime logs ────────────────────────────────────────
+*.log
+
+# ── OS artifacts ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Checkpoints / session data ───────────────────────────────────────
+checkpoints/
+
+# ── Reports (generated at runtime) ──────────────────────────────────
+reports/
+*.pdf
+readme.md
